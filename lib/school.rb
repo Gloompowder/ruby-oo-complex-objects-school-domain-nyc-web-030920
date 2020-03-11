@@ -33,6 +33,7 @@ class School
     @roster = {} 
   end
 def add_student(name, grade)
-  roster[grade]=[name]
+  name_list << name
+  roster[grade]=name_list
 end
 end
