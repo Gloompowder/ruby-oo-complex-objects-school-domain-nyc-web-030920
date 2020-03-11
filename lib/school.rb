@@ -32,6 +32,6 @@ class School
   def initialize(roster)
     @roster = {} 
   end
-def add_student(name)
+def add_student(name, something)
 end
 end
