@@ -26,3 +26,8 @@
 #     sorted
 #   end
 # end
+
+class School 
+  
+  def 
+end
