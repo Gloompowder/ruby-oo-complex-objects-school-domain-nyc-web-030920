@@ -28,10 +28,7 @@
 # end
 
 class School 
-  def initialize(name)
-    @roster = {}
+  def initialize(roster)
+    @roster = {} 
   end
-  def roster=(roster)
-    @roster=roster
-end
 end
